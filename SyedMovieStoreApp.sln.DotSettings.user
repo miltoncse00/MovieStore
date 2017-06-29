@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=E8272E373BCAD247838E6002054DEDC1/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=E8272E373BCAD247838E6002054DEDC1/Type/@EntryValue">project</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=E8272E373BCAD247838E6002054DEDC1/Name/@EntryValue">MovieStore.Data.EntityF</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=E8272E373BCAD247838E6002054DEDC1/ProjectGuid/@EntryValue">5B7739C395D50447B55D490D2C80E3CF</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=E8272E373BCAD247838E6002054DEDC1/DefaultAction/@EntryValue">run</s:String>
+	<s:String x:Key="/Default/RunConfigs/Active/@EntryValue">E8272E373BCAD247838E6002054DEDC1</s:String></wpf:ResourceDictionary>
