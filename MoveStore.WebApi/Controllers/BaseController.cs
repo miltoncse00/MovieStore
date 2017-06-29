@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.Serialization;
 using System.Web.Http;
 
 namespace MoveStore.WebApi.Controllers
@@ -11,7 +12,7 @@ namespace MoveStore.WebApi.Controllers
                 throw new ArgumentException("ModelState is not valid");
             if (version != 1)
             {
-                throw new BusinessException($"The API version {version} is not longer supported")
+                throw new BusinessException($"The API version {version} is not longer supported");
             }
 
         }
@@ -19,9 +20,20 @@ namespace MoveStore.WebApi.Controllers
 
     public class BusinessException : Exception
     {
-        public BusinessException(string message)
+        public BusinessException()
         {
-            throw new NotImplementedException();
+            
+        }
+        public BusinessException(string message):base(message)
+        {
+            
+        }
+        public BusinessException(string message, Exception innerException) : base(message, innerException)
+        {
+        }
+
+        protected BusinessException(SerializationInfo info, StreamingContext context) : base(info, context)
+        {
         }
     }
 }
